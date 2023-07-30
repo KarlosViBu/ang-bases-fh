@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.link {
+  @apply  text-white text-sm block px-2 py-2 font-bold hover:text-blue-800 hover:bg-gray-200
+}
+
+.btn-1 {
+  @apply bg-teal-500 px-4 py-2 hover:bg-teal-300 rounded-lg mx-2
+}
+
+.btn-2 {
+  @apply bg-orange-500 px-4 py-2 hover:bg-orange-400 rounded-lg mx-2
+}
+
+.titu1 {
+  @apply text-2xl dark:bg-gray-900 mb-4 lg:text-4xl text-center tracking-tight font-extrabold  dark:text-white py-2 lg:py-4
+}
+
+.titu2 {
+  @apply text-xl mb-2 lg:text-2xl font-bold  dark:text-gray-700 py-1 lg:py-2
+}
+
+
